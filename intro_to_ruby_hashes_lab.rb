@@ -11,5 +11,5 @@ def pioneer
 end
 
 def id_generator
-  hash_two = {:id => 4}
+  hash_two = {:id => 5}
 end 
