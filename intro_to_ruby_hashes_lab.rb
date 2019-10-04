@@ -1,29 +1,51 @@
 def new_hash
-  # return an empty hash
+    new_hash = {}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+    my_hash[:key]
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+    pioneer[:name]
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+   id_generator[:id]
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+   my_hash_creator = {
+    :key_one => "value one",
+    :key_two => "value two",
+    :key_three => "value three"
+  }
+  my_hash_creator[:key_two]
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+    my_hash = {
+    :key_one => "value one",
+    :key_two => "value two",
+    :key_three => "value three"
+  }
+  
+  if my_hash[:key_four]
+    puts "This is the value."
+  else
+    puts "No key found!"
 end
 
 def update_counting_hash(hash, key)
-  # given a hash an a key as parameters, return an updated hash
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
-  # if the provided key is present, increment its value by 1
+   random_hash = {
+    :value_one => 1,
+    :value_two => 2,
+    :value_three => 3
+  }
+  
+  if random_hash[:value_four]
+    random_hash[:value_four] += 1 
+  else 
+    random_hash[:value_four] = 1 
+  }
 end
