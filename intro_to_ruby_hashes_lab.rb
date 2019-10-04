@@ -9,3 +9,7 @@ end
 def pioneer
   hash = { :name => 'Grace Hopper'}
 end
+
+def id_generator
+  hash_two = {:id => 4}
+end 
